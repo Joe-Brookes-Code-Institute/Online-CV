@@ -100,31 +100,9 @@ header {
     
     /* Start the image from the top center */
     background-position: top center; 
+
 }
 
-/* Medium screens */
-@media screen and (min-width: 768px) {
-    .logo {
-        /* You can adjust this if needed, or keep it as is */
-        background-position: top center; 
-    }
-}
-
-/* Large screens */
-@media screen and (min-width: 1024px) {
-    .logo {
-        /* Adjusting for larger screens, if desired */
-        background-position: top left; /* Change to top left or another value as needed */
-    }
-}
-
-/* Extra large screens */
-@media screen and (min-width: 1440px) {
-    .logo {
-        /* Further adjustments for even larger screens */
-        background-position: top 25%; /* Example of moving it down slightly */
-    }
-}
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
