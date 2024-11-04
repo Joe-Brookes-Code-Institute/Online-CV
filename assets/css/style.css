@@ -90,7 +90,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -98,9 +98,8 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     
-    /* Start the image from the top center */
-    background-position: top center; 
-
+    /* Start the image from the top */
+    background-position: top;
 }
 
 .name {
